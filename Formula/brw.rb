@@ -1,28 +1,28 @@
 class Brw < Formula
   desc "Semantic browser control for agents"
   homepage "https://brw.donworks.co.uk/"
-  version "0.11.0"
+  version "0.12.1"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/Don-Works/brw/releases/download/v0.11.0/brw_0.11.0_darwin_arm64.tar.gz"
-      sha256 "197922e03c89e3ca0edaff2e78ef82dca2698c9c8c449ee66cc3c259f4ef1ddf"
+      url "https://github.com/Don-Works/brw/releases/download/v0.12.1/brw_0.12.1_darwin_arm64.tar.gz"
+      sha256 "60e45dd98977d37997ea8b098c651219e3a7702150bb88272fd56e74cd784e3c"
     end
     on_intel do
-      url "https://github.com/Don-Works/brw/releases/download/v0.11.0/brw_0.11.0_darwin_amd64.tar.gz"
-      sha256 "a4241683454d1981e01365d9ce7789c291fd24471dbc341b2b88de9194e76122"
+      url "https://github.com/Don-Works/brw/releases/download/v0.12.1/brw_0.12.1_darwin_amd64.tar.gz"
+      sha256 "7cd13c9c72242b20ffebc77afc8029e4b29bfd6a781e7a81d3cadcacfb8b9420"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Don-Works/brw/releases/download/v0.11.0/brw_0.11.0_linux_arm64.tar.gz"
-      sha256 "5a9085af22760977338704a3f4b94ff3cbd01dd3f5989b639743697521fe5d39"
+      url "https://github.com/Don-Works/brw/releases/download/v0.12.1/brw_0.12.1_linux_arm64.tar.gz"
+      sha256 "4c8aaf900e4d849687df01e6068606274d96dd5753ac0f6d1f4adbf737859cba"
     end
     on_intel do
-      url "https://github.com/Don-Works/brw/releases/download/v0.11.0/brw_0.11.0_linux_amd64.tar.gz"
-      sha256 "c22535a66312fd8c440e630d8be872c1ac5ddd72cb281ef7846777b24d9c60bb"
+      url "https://github.com/Don-Works/brw/releases/download/v0.12.1/brw_0.12.1_linux_amd64.tar.gz"
+      sha256 "75f5a51af7e6de1c33c44074ebb02443c28641190ad936072c98d8d3e338b460"
     end
   end
 
